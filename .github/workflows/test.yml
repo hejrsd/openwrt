@@ -99,8 +99,8 @@ jobs:
           # 编译x64固件:
           cat >> .config <<EOF
           CONFIG_TARGET_sunxi=y
-          CONFIG_TARGET_sunxi_cortexa7=y
           CONFIG_TARGET_sunxi_cortexa7_DEVICE_sun8i-h3-nanopi-m1-plus=y
+          CONFIG_TARGET_sunxi_cortexa7=y
           EOF
 
           # 固件压缩:
